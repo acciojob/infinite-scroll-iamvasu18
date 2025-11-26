@@ -4,7 +4,7 @@ let count=1;
 function additems(num){
 	for(let i=0;i<num;i++){
 		const li=document.createElement("li");
-		ol.textContent=`Item ${count}`;
+		li.textContent=`Item ${count++}`;
 		ol.appendChild(li);
 	}
 }
