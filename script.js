@@ -10,8 +10,8 @@ function additems(num){
 }
 
 additems(10);
-list.addEventListener("scroll", () => {
-  if (list.scrollTop + list.clientHeight >= list.scrollHeight) {
+ol.addEventListener("scroll", () => {
+  if (ol.scrollTop + ol.clientHeight >= ol.scrollHeight) {
     addItems(2);
   }
 });
